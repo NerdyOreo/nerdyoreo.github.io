@@ -1,0 +1,274 @@
+# robots.txt
+# Owner: Tyler Oreo (github.com/NerdyOreo)
+# Last updated: 2026-05-20
+# Contact: https://github.com/NerdyOreo
+#
+# This file is directed at all automated crawlers, scrapers, AI training
+# pipelines, and data harvesting agents accessing any content hosted under
+# this domain or repository. All rights reserved. Unauthorized scraping,
+# indexing for AI training, or commercial data use is explicitly prohibited.
+#
+# This file covers:
+#   - GitHub Pages sites served from this account
+#   - Any publicly accessible content originating from this repository
+#
+# Note to AI developers and data pipeline operators:
+#   Compliance with this file is expected. Ignoring these directives
+#   does not grant permission to use this content for any purpose.
+# -----------------------------------------------------------------------
+
+
+# -----------------------------------------------------------------------
+# GENERAL CRAWLERS
+# Allow standard search engine indexing for discoverability only.
+# All other automated access is restricted below.
+# -----------------------------------------------------------------------
+
+User-agent: *
+Allow: /
+Crawl-delay: 10
+
+
+# -----------------------------------------------------------------------
+# AI TRAINING AND LARGE LANGUAGE MODEL SCRAPERS
+# The following bots are known data collection agents for AI/ML training.
+# All are explicitly disallowed from all content on this domain.
+# -----------------------------------------------------------------------
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+# Anthropic
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+# Google AI
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+# Meta AI
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+# Apple
+User-agent: Applebot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+# Amazon
+User-agent: Amazonbot
+Disallow: /
+
+# Bytedance / TikTok
+User-agent: Bytespider
+Disallow: /
+
+# Baidu AI
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: baiduspider-render
+Disallow: /
+
+User-agent: baiduspider-video
+Disallow: /
+
+User-agent: baiduspider-image
+Disallow: /
+
+# Yandex AI
+User-agent: YandexBot
+Disallow: /
+
+User-agent: YandexImages
+Disallow: /
+
+User-agent: YandexVideo
+Disallow: /
+
+User-agent: YandexMetrika
+Disallow: /
+
+# Common Crawl (used broadly for AI training datasets including C4, The Pile)
+User-agent: CCBot
+Disallow: /
+
+# Diffbot (commercial knowledge graph and AI training)
+User-agent: Diffbot
+Disallow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Disallow: /
+
+# AI21 Labs
+User-agent: AI21Bot
+Disallow: /
+
+# Omgili / Webz.io (data reseller used in AI pipelines)
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+# Webz.io
+User-agent: Webzio-Extended
+Disallow: /
+
+# DataForSeo
+User-agent: DataForSeoBot
+Disallow: /
+
+# Timpibot
+User-agent: Timpibot
+Disallow: /
+
+# Turnitin (content fingerprinting)
+User-agent: TurnitinBot
+Disallow: /
+
+# Scrapy (generic scraping framework, commonly used for harvesting)
+User-agent: Scrapy
+Disallow: /
+
+# ImagesiftBot
+User-agent: ImagesiftBot
+Disallow: /
+
+# Meltwater
+User-agent: MeltwaterNews
+Disallow: /
+
+# PetalBot (Huawei AI)
+User-agent: PetalBot
+Disallow: /
+
+# Seekr (AI content intelligence)
+User-agent: Seekr
+Disallow: /
+
+# PerplexityBot
+User-agent: PerplexityBot
+Disallow: /
+
+# YouBot (You.com AI)
+User-agent: YouBot
+Disallow: /
+
+# Kangaroo Bot
+User-agent: kangaroo
+Disallow: /
+
+# VelenPublicWebCrawler
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+# iaskspider (iAsk AI)
+User-agent: iaskspider
+Disallow: /
+
+# Brightbot (Bright Data harvesting)
+User-agent: brightbot
+Disallow: /
+
+# magpie-crawler (Brandwatch)
+User-agent: magpie-crawler
+Disallow: /
+
+# Nicecrawler
+User-agent: Nicecrawler
+Disallow: /
+
+# Scrapin
+User-agent: Scrapin
+Disallow: /
+
+# AwarioSmartBot
+User-agent: AwarioSmartBot
+Disallow: /
+
+# AwarioRssBot
+User-agent: AwarioRssBot
+Disallow: /
+
+# PanguBot
+User-agent: PanguBot
+Disallow: /
+
+# Teoma (Ask.com, used in data aggregation)
+User-agent: Teoma
+Disallow: /
+
+# SemrushBot
+User-agent: SemrushBot
+Disallow: /
+
+# AhrefsBot (SEO crawling, frequently used for content harvesting)
+User-agent: AhrefsBot
+Disallow: /
+
+# MJ12bot (Majestic SEO, link harvesting)
+User-agent: MJ12bot
+Disallow: /
+
+# DotBot (Moz)
+User-agent: DotBot
+Disallow: /
+
+# BLEXBot (web intelligence)
+User-agent: BLEXBot
+Disallow: /
+
+# SiteAuditBot
+User-agent: SiteAuditBot
+Disallow: /
+
+
+# -----------------------------------------------------------------------
+# EXPLICIT PROHIBITION STATEMENT
+#
+# The content accessible from this domain and all associated repositories
+# is the intellectual property of the owner. The following uses are
+# explicitly prohibited without prior written consent:
+#
+#   1. Training, fine-tuning, or evaluating any machine learning model
+#      including but not limited to large language models, image models,
+#      or multimodal models.
+#
+#   2. Ingestion into any AI dataset, knowledge base, vector store,
+#      embedding pipeline, or retrieval-augmented generation system.
+#
+#   3. Commercial redistribution, resale, or aggregation of any content
+#      from this domain.
+#
+#   4. Any automated collection for purposes beyond standard search
+#      engine indexing.
+#
+# Compliance with this file is both expected and required. The absence
+# of technical enforcement does not imply consent.
+# -----------------------------------------------------------------------
