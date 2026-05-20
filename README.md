@@ -1,6 +1,6 @@
 # Tyler Gates — IT Systems Administrator
 
-Personal portfolio and professional presence. Based in Warwick, RI.
+Personal portfolio and professional presence. Based in RI.
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-nerdyoreo.github.io-32d74b?style=flat-square)](https://nerdyoreo.github.io)
 
